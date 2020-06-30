@@ -61,7 +61,7 @@ inquirer.prompt([
   {
     type: "input",
     name: "Acknowledgements",
-    message: "Please list your inspirations or shout out to person whose code that you used. If you don't have a person to thank or idea to refer to, please write 'None'.",
+    message: "Please list your inspirations or shout out to a person whose code you may have used. If you don't have a person to thank or idea to refer to, please write 'None'.",
   }
 ]).then(function(generatedREADMEInput) {
     fs.writeFile("goodREADME.md", generatedMarkdown(generatedREADMEInput), function(err) {
