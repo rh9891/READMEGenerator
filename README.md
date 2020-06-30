@@ -30,7 +30,7 @@ THEN a README file is generated with the title of your project and sections enti
 
 The following animation demonstrates the application functionality:
 
-![README Generator](https://github.com/erasersleeve/Multimedia-Search-Engine/blob/master/assets/Read%20It%20or%20Watch%20It.gif)
+![README Generator](https://github.com/rh9891/READMEGenerator/blob/master/assets/images/README-Generator.gif)
 
 # Links
 
