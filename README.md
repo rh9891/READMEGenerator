@@ -15,16 +15,18 @@
 This is a command line interface application that allows the user to create a new README by answering a series of questions about their repository.
 
 ## User Story
-
+~~~
 AS A user   
-I WANT to create a thorough, high-quality, professional README documentation
+I WANT to create a thorough, high-quality, professional README documentation  
 SO THAT I can provide a description and demonstration of my application to my users.
+~~~
 
-# Features of the Application:
-
+## Features of the Application:
+~~~
 GIVEN a command-line application that accepts user input  
 WHEN I am prompted for information about my application repository  
 THEN a README file is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
+~~~
 
 ## Preview GIF of README Generator
 
