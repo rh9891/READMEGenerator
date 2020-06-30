@@ -1,15 +1,21 @@
+// Function that generates the README file and inputs the user's information based on their answers.
 function generatedMarkdown(generatedREADMEInput) {
+// Variable for the README badge.
     let READMEbadge = "";
+// If the user chooses the BDL license option for their repository, the corresponding badge is rendered at the top of the README.
     if (generatedREADMEInput.License == "BDL") {
         READMEbadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
     }
+// If the user chooses the MIT license option for their repository, the corresponding badge is rendered at the top of the README.
     if (generatedREADMEInput.License == "MIT") {
         READMEbadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
+// If the user chooses the GPL license option for their repository, the corresponding badge is rendered at the top of the README.
     if (generatedREADMEInput.License == "GPL") {
         READMEbadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
     };
 
+// Using the inputted answers of the the user from the index.js, the appropriate information is generated into the README file.
     return `
 # ${generatedREADMEInput.Title}
 
@@ -61,4 +67,5 @@ I would like to acknowledge and thank the following person(s) for their inspirat
 
 };
 
+// Instruction that tells Node which functions, objects, variables, and strings to refer to from a given file so that this file is allowed to access the code (the user input information).
 module.exports = generatedMarkdown;

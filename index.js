@@ -1,7 +1,9 @@
+// Variables
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generatedMarkdown = require("./utils/generatedMarkdown");
 
+// The inquirer dependency is being called for the user to be prompted with an array of questions.
 inquirer.prompt([
   {
     type: "input",
@@ -24,6 +26,7 @@ inquirer.prompt([
     message: "Please provide examples of usage for your application. (Like the project description, this section can display examples of code used in your application to give the user a better idea of what your application does.)",
   },
   {
+  // The user is given three options to choose from for the license. The answer that is chosen will correspond to the kind of badge that they receive at the top of the README.
     type: "list",
     name: "License",
     message: "Which license would you like to include in your README?",
@@ -63,6 +66,7 @@ inquirer.prompt([
     name: "Acknowledgements",
     message: "Please list your inspirations or shout out to a person whose code you may have used. If you don't have a person to thank or idea to refer to, please write 'None'.",
   }
+// Function to write the file into a README file. If the function is successful, a message from the console log will congratulate the user.
 ]).then(function(generatedREADMEInput) {
     fs.writeFile("goodREADME.md", generatedMarkdown(generatedREADMEInput), function(err) {
         if (err) throw err;
