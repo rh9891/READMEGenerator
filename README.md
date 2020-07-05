@@ -51,9 +51,7 @@ The following image demonstrates a message from the console log that congratulat
 
 ## Links
 
-1. [Deployed Application](https://rh9891.github.io/READMEGenerator)
-
-2. [Github Repository](https://github.com/rh9891/READMEGenerator)
+[Github Repository](https://github.com/rh9891/READMEGenerator)
 
 ## Installation
 
