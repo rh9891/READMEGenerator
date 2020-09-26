@@ -1,7 +1,7 @@
 {
   "name": "readmegenerator",
   "version": "1.0.0",
-  "description": "[![NPM Version Badge](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://badge.fury.io/js/%40angular%2Fcore)",
+  "description": "A command line interface application that allows the user to dynamically generate a new README by answering a series of questions about their repository.",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^7.3.0"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/rh9891/READMEGenerator.git"
   },
-  "author": "",
+  "author": "Romie Hecdivert",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rh9891/READMEGenerator/issues"
