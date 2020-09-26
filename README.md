@@ -15,6 +15,7 @@
 *  [Questions](#questions)
 
 ## Description
+
 Generating a purposeful README is important to every project. A purposeful README is thorough and has a descriptive title (that is self-explaining); a short description explaining the what, why, and how of your application; specific steps that help get the users to flow through your application without any issues; examples of code used in your application to give the user a better idea of what your application does; license information, and a way for users to contact you in case they have any questions or comments. 
 
 The README Generator is a command line interface application that allows the user to create a new README by answering a series of questions about their repository. Once the user has answered all of the questions about their repository, a README file is generated for the user (with the answers that the user inputted into the command line).
@@ -51,7 +52,7 @@ The following image demonstrates a message from the console log that congratulat
 
 ## Links
 
-[Github Repository](https://github.com/rh9891/READMEGenerator)
+* [Github Repository](https://github.com/rh9891/READMEGenerator)
 
 ## Installation
 
@@ -77,8 +78,8 @@ This application does not currently have any licenses, so the user is not permit
 
 ## Contributing
 
-If you would like to contribute to this repository, please let me know of any changes that you would like to make by contacting me via Github or email.
+If you would like to contribute to this repository, please contact me via [Github](https://github.com/rh9891).
 
 ## Questions
 
-If you have any questions, comments, or issues regarding this command line interface application, please don't hesitate to contact me either through [Github](https://github.com/rh9891) or by email at <romie.hecdivert@gmail.com>.
+If you have any questions, comments, or issues regarding this command line interface application, please don't hesitate to contact me via [Github](https://github.com/rh9891).
