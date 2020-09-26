@@ -38,17 +38,25 @@ THEN a README file is generated with the title of your project and sections enti
 
 The following animation demonstrates the application functionality:
 
-![README Generator](https://github.com/rh9891/READMEGenerator/blob/master/assets/images/README-Generator.gif)
+<p align="center">
+  <img src="https://github.com/rh9891/READMEGenerator/blob/master/assets/images/README-Generator.gif">
+</p>
 
 The following images (with notes) demonstrate the application functionality and provide explanations for specific lines of code in the command line.:
 
-![Node Index Preview](assets/images/nodeIndexPreview.jpg)
+<p align="center">
+  <img src="assets/images/nodeIndexPreview.jpg">
+</p>
 
-![README License Choices Preview](assets/images/READMELicense.jpg)
+<p align="center">
+  <img src="assets/images/READMELicense.jpg">
+</p>
 
 The following image demonstrates a message from the console log that congratulates the user for successfully completing the application as it runs the function to write a new README file.:
 
-![Console Log Preview](assets/images/consoleLogPreview.jpg)
+<p align="center">
+  <img src="assets/images/consoleLogPreview.jpg">
+</p>
 
 ## Links
 
